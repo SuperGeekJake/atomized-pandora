@@ -1,0 +1,17 @@
+{
+  "name": "pandora",
+  "version": "1.0.0",
+  "description": "An atom-shell powered Pandora client",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.launchbrigade.com:jwilliams/pandora.git"
+  },
+  "author": "Jacob Williams",
+  "license": "MIT"
+}
