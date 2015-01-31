@@ -72,8 +72,8 @@ app.on('ready', function() {
   });
 });
 
-// ipc.on('login', function (event, arg) {
-//   pandora.userAuth(arg.user, arg.pass, function (success) {
-//     ipc.send('login-attempt', success);
-//   });
-// });
+ipc.on('login', function (event, arg) {
+  pandora.userAuth(arg.user, arg.pass, function (success) {
+    event.sender.send('login-attempt', success);
+  });
+});
